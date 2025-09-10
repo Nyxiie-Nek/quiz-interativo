@@ -41,9 +41,12 @@
         for(const alternativa of perguntaAtual.alternativas){
             const botaoAlternativas = document.createElement("button");
             botaoAlternativas.textContent = alternativa.texto;
-            botaoAlternativas.addEventListener("click")
+            botaoAlternativas.addEventListener("click", ()=> respostaSelecionada(alternativa));
+            caixaAlternativas.appendChild(botaoAlternativas);
         }
     }
+
+    function respostaSelecionada(opcãoSelecionada) {}
 
     function mostraResultado () {
         caixaPerguntas.textContent = `Texto genérico, mudar de acordo com as perguntas, ${nome}`;
