@@ -5,6 +5,8 @@
     const caixaPerguntas = document.querySelector(".caixa-perguntas");
     const caixaAlternativas = document.querySelector(".caixa-alternativas");
     const caixaResultado = document.querySelector(".caixa-resultado");
+    const textoResultado = document.querySelector(".texto-resultado");
+    const botaoJogarNovamente = document.querSelector(".btn-novamente")
     const botaoIniciar = document.querySelector(".iniciar-btn");
     const telaInicial = document.querySelector(".tela-inicial");
 
@@ -16,6 +18,7 @@
 
     function iniciaJogo () {
         atual = 0
+        historiaFinal = "";
         telaInicial.style.display = 'none';
         caixaPerguntas.classList.remove (".mostrar");
         caixaAlternativas.classList.remove (".mostrar");
@@ -34,7 +37,13 @@
         mostraAlternativas();
     };
 
-    function mostraAlternativas () {}
+    function mostraAlternativas () {
+        for(const alternativa of perguntaAtual.alternativas){
+            const botaoAlternativas = document.createElement("button");
+            botaoAlternativas.textContent = alternativa.texto;
+            botaoAlternativas.addEventListener("click")
+        }
+    }
 
     function mostraResultado () {
         caixaPerguntas.textContent = `Texto genérico, mudar de acordo com as perguntas, ${nome}`;
