@@ -1,6 +1,6 @@
 const perguntas = [
     {
-        enunciado: "pergunta 1",  //a pergunta
+        enunciado: "você quer saber a sua opninião para escolher entre nike e abidas",  //a pergunta
         alternativas: [
             {
                 texto: "nike", //primeira alternativa
@@ -10,7 +10,7 @@ const perguntas = [
                 ],
             },
             {
-                texto: "adidas",
+                texto: "abidas",
                 afirmacao: [
                     "você é vaiado",
                     "você não sabe escolher"
