@@ -46,7 +46,17 @@
         }
     }
 
-    function respostaSelecionada(opcãoSelecionada) {}
+    function respostaSelecionada(opcãoSelecionada) {
+        const afirmacoes  aleatorio(opcãoSelecionada.afirmacao);
+        historiaFinal += afirmacoes + " ";
+        if(opcãoSelecionada.proxima !== undefined) {
+            atual = opcãoSelecionada.proxima;
+        }else {
+            mostraResultado();
+            return;
+        }
+        mostraPergunta();
+    }
 
     function mostraResultado () {
         caixaPerguntas.textContent = `Texto genérico, mudar de acordo com as perguntas, ${nome}`;
@@ -56,4 +66,16 @@
         botaoJogarNovamente.addEventListener("click", jogarNovamente);
     }
 
-    function jogarNovamente () {}
+    function jogarNovamente () {
+        atual = 0;
+        historiaFinal = "";
+        caixaResultado.classList.remove("mostar");
+        mostraPergunta();
+    }
+
+    function substituiNome () {
+        for(const pergunta of perguntas) {
+            pergunta.enunciado = pergunta.enunciado.replace(/você/g, nome);
+        }
+    }
+    substituiNome();
