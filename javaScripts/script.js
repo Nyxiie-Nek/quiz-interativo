@@ -47,7 +47,7 @@
     }
 
     function respostaSelecionada(opcãoSelecionada) {
-        const afirmacoes  aleatorio(opcãoSelecionada.afirmacao);
+        const afirmacoes = aleatorio(opcãoSelecionada.afirmacao);
         historiaFinal += afirmacoes + " ";
         if(opcãoSelecionada.proxima !== undefined) {
             atual = opcãoSelecionada.proxima;
