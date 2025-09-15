@@ -1,3 +1,4 @@
+export
 const perguntas = [
     {
         enunciado: "você quer saber a sua opninião para escolher entre nike e abidas",  //a pergunta
@@ -8,6 +9,7 @@ const perguntas = [
                     "você tem bom gosto", //comentário para a resposta
                     "afirmação 2"        //segundo comentário
                 ],
+                proxima: 1,     //
             },
             {
                 texto: "abidas",
@@ -15,6 +17,7 @@ const perguntas = [
                     "você é vaiado",
                     "você não sabe escolher"
                 ],
+                proxima: 1,
             }
         ]
     },
