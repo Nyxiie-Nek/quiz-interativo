@@ -1,10 +1,10 @@
 export
 const perguntas = [
     {
-        enunciado: "você quer saber a sua opninião para escolher entre nike e abidas",  //a pergunta
+        enunciado: "você quer saber a qual é o melhor youtuber brasileiro sobre FNAF",  //a pergunta
         alternativas: [
             {
-                texto: "nike", //primeira alternativa
+                texto: "Core", //primeira alternativa
                 afirmacao: [
                     "você tem bom gosto", //comentário para a resposta
                     "afirmação 2"        //segundo comentário
@@ -12,7 +12,7 @@ const perguntas = [
                 proxima: 1,     //
             },
             {
-                texto: "abidas",
+                texto: "Goularte",
                 afirmacao: [
                     "você é vaiado",
                     "você não sabe escolher"
