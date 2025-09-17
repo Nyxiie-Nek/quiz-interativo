@@ -6,7 +6,7 @@ const perguntas = [
                 texto: "Core", //primeira alternativa
                 afirmacao: [
                     "Na verdade, o Core foi um dos primeros youtubers brasileiros a fazer videos sobre Five Nights At Freddy's", //comentário para a resposta
-                    "afirmação 2"        //segundo comentário
+                    //segundo comentário
                 ],
                 proxima: 4,     //
             },
@@ -14,7 +14,6 @@ const perguntas = [
                 texto: "Markplier",
                 afirmacao: [
                     "você descobriu que o Markplier foi um dos primeiros youtubers a gravarem vídeos sobre Five Nights At Freddy's",
-                    "você não sabe escolher"
                 ],
                 proxima: 1,
             }
