@@ -41,19 +41,19 @@ const perguntas = [
         ]
     },
     {
-        enunciado: "pergunta 4",
+        enunciado: "Qual é o youtuber que ficou famoso por causa de enigmas?",
         alternativas: [
             {
-                texto: "nike",
+                texto: "Cellbit",
                 afirmacao: [
-                    "você tem bom gosto",
+                    "O cellbit realmente ficou famoso por causa do enigma Do Not Believe His Lies",
                     "afirmação 2"
                 ],
             },
             {
-                texto: "adidas",
+                texto: "Gemaplys",
                 afirmacao: [
-                    "você é vaiado",
+                    "Na verdade, o Gemaplys ficou famoso por fazer reviews de jogo ruims",
                     "você não sabe escolher"
                 ],
             }
