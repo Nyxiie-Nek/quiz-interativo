@@ -1,20 +1,20 @@
 export
 const perguntas = [
     {
-        enunciado: "você quer saber a qual é o melhor youtuber brasileiro sobre FNAF",  //a pergunta
+        enunciado: "você quer saber a qual é o youtuber que começou a fazer videos de FNAF",  //a pergunta
         alternativas: [
             {
                 texto: "Core", //primeira alternativa
                 afirmacao: [
-                    "você tem bom gosto", //comentário para a resposta
+                    "Na verdade, o Core foi um dos primeros youtubers brasileiros a fazer videos sobre Five Nights At Freddy's", //comentário para a resposta
                     "afirmação 2"        //segundo comentário
                 ],
-                proxima: 1,     //
+                proxima: 4,     //
             },
             {
-                texto: "Goularte",
+                texto: "Markplier",
                 afirmacao: [
-                    "você é vaiado",
+                    "você descobriu que o Markplier foi um dos primeiros youtubers a gravarem vídeos sobre Five Nights At Freddy's",
                     "você não sabe escolher"
                 ],
                 proxima: 1,
@@ -22,21 +22,22 @@ const perguntas = [
         ]
     },
     {
-        enunciado: "pergunta 2",
+        enunciado: "Qual Youtuber derrotou o Sans de Undertale de primeira?",
         alternativas: [
             {
-                texto: "nike",
+                texto: "Godenot",
                 afirmacao: [
-                    "você tem bom gosto",
+                    "Incrivelmente, o Godenot conseguiu derrotar o sans sem morrer.",
                     "afirmação 2"
                 ],
             },
             {
-                texto: "adidas",
+                texto: "Pai troll",
                 afirmacao: [
-                    "você é vaiado",
+                    "O Pai troll nunca chegou até o final da luta em vídeo, a paciência dele não durou e ele deu rage.",
                     "você não sabe escolher"
                 ],
+                proxima:3
             }
         ]
     },
