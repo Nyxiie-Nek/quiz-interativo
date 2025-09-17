@@ -26,14 +26,13 @@ const perguntas = [
                 texto: "Godenot",
                 afirmacao: [
                     "Incrivelmente, o Godenot conseguiu derrotar o sans sem morrer.",
-                    "afirmação 2"
+                    
                 ],
             },
             {
                 texto: "Pai troll",
                 afirmacao: [
                     "O Pai troll nunca chegou até o final da luta em vídeo, a paciência dele não durou e ele deu rage.",
-                    "você não sabe escolher"
                 ],
                 proxima:3
             }
