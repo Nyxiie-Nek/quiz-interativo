@@ -1,4 +1,3 @@
-export
 const perguntas = [
     {
         enunciado: "você quer saber a qual é o youtuber que começou a fazer videos de FNAF",  //a pergunta
