@@ -80,17 +80,17 @@ const perguntas = [
         ]
     },
     {
-        enunciado: "pergunta 5",
+        enunciado: "você quer saber quem foi o youtuber que zerou o hollow kinght na escudada?",
         alternativas: [
             {
-                texto: "nike",
+                texto: "Dillan Rezende",
                 afirmacao: [
-                    "você tem bom gosto",
+                    "você aaa",
                     "afirmação 2"
                 ],
             },
             {
-                texto: "adidas",
+                texto: "Saiko",
                 afirmacao: [
                     "você é vaiado",
                     "você não sabe escolher"
