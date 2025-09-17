@@ -8,7 +8,7 @@ const perguntas = [
                     "Na verdade, o Core foi um dos primeros youtubers brasileiros a fazer videos sobre Five Nights At Freddy's", //comentário para a resposta
                     //segundo comentário
                 ],
-                proxima: 4,     //
+                proxima: 1,     //
             },
             {
                 texto: "Markplier",
@@ -28,6 +28,7 @@ const perguntas = [
                     "Incrivelmente, o Godenot conseguiu derrotar o sans sem morrer.",
                     
                 ],
+                proxima:3
             },
             {
                 texto: "Pai troll",
@@ -45,33 +46,33 @@ const perguntas = [
                 texto: "Cellbit",
                 afirmacao: [
                     "O cellbit realmente ficou famoso por causa do enigma Do Not Believe His Lies",
-                    "afirmação 2"
+                    
                 ],
             },
             {
                 texto: "Gemaplys",
                 afirmacao: [
                     "Na verdade, o Gemaplys ficou famoso por fazer reviews de jogo ruims",
-                    "você não sabe escolher"
+        
                 ],
             }
         ]
     },
     {
-        enunciado: "Você prefere nike ou adidas?",
+        enunciado: "vocẽ quer assistir ao youtuber que faz videos com a voz tranquila, qual youtuber Você remonendaria?",
         alternativas: [
             {
-                texto: "nike",
+                texto: "Goularte",
                 afirmacao: [
                     "você tem bom gosto",
                     "afirmação 2"
                 ],
             },
             {
-                texto: "adidas",
+                texto: "Pai Troll",
                 afirmacao: [
-                    "você é vaiado",
-                    "você não sabe escolher"
+                    "Os videos do pai troll continham muitos rages",
+                    
                 ],
             }
         ]
