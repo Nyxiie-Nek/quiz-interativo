@@ -48,6 +48,7 @@ const perguntas = [
                     "O cellbit realmente ficou famoso por causa do enigma Do Not Believe His Lies",
                     
                 ],
+                proxima: 4
             },
             {
                 texto: "Gemaplys",
@@ -55,25 +56,28 @@ const perguntas = [
                     "Na verdade, o Gemaplys ficou famoso por fazer reviews de jogo ruims",
         
                 ],
+                proxima: 4
             }
         ]
     },
     {
-        enunciado: "vocẽ quer assistir ao youtuber que faz videos com a voz tranquila, qual youtuber Você remonendaria?",
+        enunciado: "você quer saber qual canal tem relatado toda a treta da Raluca, qual Tu recomendaria?",
         alternativas: [
             {
                 texto: "Goularte",
                 afirmacao: [
-                    "você tem bom gosto",
-                    "afirmação 2"
-                ],
-            },
-            {
-                texto: "Pai Troll",
-                afirmacao: [
-                    "Os videos do pai troll continham muitos rages",
+                    "Apesar de ele já ter feito vídeos sobre a opinião dele sobre conteudos do youtube. hoje em dia, o Gou faz vídeos contando histórias sobre jogos",
                     
                 ],
+                proxima: 2
+            },
+            {
+                texto: "Diggo",
+                afirmacao: [
+                    "O Diggo fez um vídeo fazendo um exposed da Raluca, no qual ela respondeu, e então o Diggo faz um vídeo resposta dizendo: 'esperava mais'",
+                    
+                ],
+                proxima: 2
             }
         ]
     },
@@ -83,15 +87,13 @@ const perguntas = [
             {
                 texto: "Dillian Rezende",
                 afirmacao: [
-                    "O Dillian além de ter zerado cuphead só na machadada, ele conseguiu zerar o hollow kinght só na escudada.",
-                    "afirmação 2"
+                    "O Dillian além de ter zerado cuphead só na machadada, ele conseguiu zerar o hollow kinght só na escudada.",   
                 ],
             },
             {
                 texto: "Saiko",
                 afirmacao: [
                     "Ná verdade, o Saiko nunca sequer jogou hollow knight",
-                    "você não sabe escolher"
                 ],
             }
         ]
