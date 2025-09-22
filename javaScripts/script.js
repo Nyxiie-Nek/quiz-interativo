@@ -5,7 +5,7 @@ const perguntas = [
             {
                 texto: "Core", //primeira alternativa
                 afirmacao: [
-                    "Na verdade, o Core foi um dos primeros youtubers brasileiros a fazer videos sobre Five Nights At Freddy's", //comentário para a resposta
+                    "Na verdade, o Core foi um dos primeros youtubers brasileiros a fazer videos sobre Five Nights At Freddy's.", //comentário para a resposta
                     //segundo comentário
                 ],
                 proxima: 1,     //
@@ -13,7 +13,7 @@ const perguntas = [
             {
                 texto: "Markplier",
                 afirmacao: [
-                    "você descobriu que o Markplier foi um dos primeiros youtubers a gravarem vídeos sobre Five Nights At Freddy's",
+                    "você descobriu que o Markplier foi um dos primeiros youtubers a gravarem vídeos sobre Five Nights At Freddy's.",
                 ],
                 proxima: 1,
             }
@@ -45,7 +45,7 @@ const perguntas = [
             {
                 texto: "Cellbit",
                 afirmacao: [
-                    "O cellbit realmente ficou famoso por causa do enigma Do Not Believe His Lies",
+                    "O cellbit realmente ficou famoso por causa do enigma Do Not Believe His Lies.",
                     
                 ],
                 proxima: 4
@@ -53,7 +53,7 @@ const perguntas = [
             {
                 texto: "Gemaplys",
                 afirmacao: [
-                    "Na verdade, o Gemaplys ficou famoso por fazer reviews de jogo ruims",
+                    "Na verdade, o Gemaplys ficou famoso por fazer reviews de jogo ruims.",
         
                 ],
                 proxima: 4
@@ -66,7 +66,7 @@ const perguntas = [
             {
                 texto: "Goularte",
                 afirmacao: [
-                    "Apesar de ele já ter feito vídeos sobre a opinião dele sobre conteudos do youtube. hoje em dia, o Gou faz vídeos contando histórias sobre jogos",
+                    "Apesar de ele já ter feito vídeos sobre a opinião dele sobre conteudos do youtube. hoje em dia, o Gou faz vídeos contando histórias sobre jogos.",
                     
                 ],
                 proxima: 2
@@ -74,7 +74,7 @@ const perguntas = [
             {
                 texto: "Diggo",
                 afirmacao: [
-                    "O Diggo fez um vídeo fazendo um exposed da Raluca, no qual ela respondeu, e então o Diggo faz um vídeo resposta dizendo: 'esperava mais'",
+                    "O Diggo fez um vídeo fazendo um exposed da Raluca, no qual ela respondeu, e então o Diggo faz um vídeo resposta dizendo: 'esperava mais'.",
                     
                 ],
                 proxima: 2
@@ -93,7 +93,7 @@ const perguntas = [
             {
                 texto: "Saiko",
                 afirmacao: [
-                    "Ná verdade, o Saiko nunca sequer jogou hollow knight",
+                    "Ná verdade, o Saiko nunca sequer jogou hollow knight.",
                 ],
             }
         ]
